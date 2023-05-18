@@ -1,18 +1,18 @@
-# Polling System APIs
+# -> Polling System APIs
 
-## HOSTING LINK : 
+## -> HOSTING LINK : 
 ## https://polling-system-api-xid6.onrender.com 
 
-## API DOCUMENTATION LINK :
+## -> API DOCUMENTATION LINK :
 ## https://documenter.getpostman.com/view/27448741/2s93kz65ko
 
-## BUILT WITH :
+## -> BUILT WITH :
 * NODEJS
 * EXPRESS JS
 * MONGODB
 * MONGOOSE
 
-## FEATURES :
+## -> FEATURES :
 * Create a question (you can add as many questions as you want)
 * Add options to a question
 * Add a vote to an option of question
@@ -20,20 +20,20 @@
 * Delete an option → (optional: An option can’t be deleted if it has even one vote given to it)
 * View a question with it’s options and all the votes given to it
 
-## Required Routes (Remember, in a real test, you won’t be given routes mostly) :
-*  /questions/create (To create a question)✅ 
+## -> Required Routes (Remember, in a real test, you won’t be given routes mostly) :
+*  localhost:3000/api/v1/question/create (To create a question)✅ 
  
-* /questions/:id/options/create (To add options to a specific question)
+* localhost:3000/api/v1/question/options/:id/create (To add options to a specific question)
  
-* /questions/:id/delete (To delete a question)✅
+* localhost:3000/api/v1/question/delete/:id (To delete a question)✅
  
-* /options/:id/delete (To delete an option)
+* localhost:3000/api/v1/question/options/delete/:id (To delete an option)
 
-* /options/:id/add_vote (To increment the count of votes)
+* localhost:3000/api/v1/question/options/:id/add_vote (To increment the count of votes)
 
-* /questions/:id (To view a question and it’s options)✅
+* localhost:3000/api/v1/question/view/:id (To view a question and it’s options)✅
 
-## SCREENSHOTS OF PROJECT :
+## -> SCREENSHOTS OF PROJECT :
 
 ![pollingsystemAPI](https://github.com/mdadnan07/Polling-System-API/assets/131695481/98806347-4fd7-4616-ad1f-f40a6d1aa9eb)
 ![createQue](https://github.com/mdadnan07/Polling-System-API/assets/131695481/ef9eb6b7-5c38-4228-accd-8a4a0a6349de)
