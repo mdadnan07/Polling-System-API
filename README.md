@@ -3,6 +3,9 @@
 ## HOSTING LINK : 
 https://polling-system-api-xid6.onrender.com 
 
+## API DOCUMENTATION LINK :
+https://documenter.getpostman.com/view/27448741/2s93kz65ko
+
 ## BUILT WITH :
 * NODEJS
 * EXPRESS JS
